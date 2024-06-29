@@ -2,10 +2,12 @@ import React from 'react';
 
 const Contact = ({ contact }) => {
   return (
-    <section>
-      <h3>Contact</h3>
-      <p>Email: {contact.email}</p>
-      <p>Phone: {contact.phone}</p>
+    <section className="mb-4">
+      <div className="container">
+        <h3>Contact</h3>
+        <p><strong>Email:</strong> {contact.email}</p>
+        <p><strong>Phone:</strong> {contact.phone}</p>
+      </div>
     </section>
   );
 };

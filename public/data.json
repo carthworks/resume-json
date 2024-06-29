@@ -1,8 +1,8 @@
 {
-    "name": "John Doe",
+    "name": "Alice Johnson",
     "title": "Software Developer",
     "contact": {
-      "email": "john.doe@example.com",
+      "email": "alice.john@example.com",
       "phone": "123-456-7890"
     },
     "summary": "Experienced software developer with a strong background in web development.",

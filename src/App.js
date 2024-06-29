@@ -24,11 +24,13 @@ function App() {
   return (
     <div className="App">
       <Header name={data.name} title={data.title} />
-      <Contact contact={data.contact} />
-      <Summary summary={data.summary} />
-      <Experience experience={data.experience} />
-      <Education education={data.education} />
-      <Skills skills={data.skills} />
+      <div className="container">
+        <Contact contact={data.contact} />
+        <Summary summary={data.summary} />
+        <Experience experience={data.experience} />
+        <Education education={data.education} />
+        <Skills skills={data.skills} />
+      </div>
     </div>
   );
 }

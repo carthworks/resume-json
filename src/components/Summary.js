@@ -2,9 +2,11 @@ import React from 'react';
 
 const Summary = ({ summary }) => {
   return (
-    <section>
-      <h3>Summary</h3>
-      <p>{summary}</p>
+    <section className="mb-4">
+      <div className="container">
+        <h3>Summary</h3>
+        <p>{summary}</p>
+      </div>
     </section>
   );
 };
