@@ -1,0 +1,37 @@
+{
+    "name": "John Doe",
+    "title": "Software Developer",
+    "contact": {
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890"
+    },
+    "summary": "Experienced software developer with a strong background in web development.",
+    "experience": [
+      {
+        "company": "Company A",
+        "position": "Senior Developer",
+        "duration": "2018 - Present",
+        "description": "Worked on various projects, leading the development team."
+      },
+      {
+        "company": "Company B",
+        "position": "Developer",
+        "duration": "2015 - 2018",
+        "description": "Developed multiple web applications and improved site performance."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University X",
+        "degree": "Bachelor of Science in Computer Science",
+        "year": "2015"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "CSS"
+    ]
+  }
+  
